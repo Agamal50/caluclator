@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="icon" href="uploads/calculator.png"type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/calculator.css">
+   
+
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="result" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+        <div class="buttons">
+            <input id="num7" type="button" value="7" onclick="num1(this.value)">
+            <input id="num8" type="button"value="8" onclick="num1(this.value)">
+            <input id="num9" type="button"value="9" onclick="num1(this.value)">
+            <input id="btn operator"type="button" value="/" onclick="num1(this.value)">
+            <input id="num4" type="button"value="4" onclick="num1(this.value)">
+            <input id="num5" type="button"value="5" onclick="num1(this.value)">
+            <input id="num6"type="button" value="6" onclick="num1(this.value)">
+            <input id="btn operator" type="button"value="*" onclick="num1(this.value)">
+            <input id="num1"type="button" value="1" onclick="num1(this.value)">
+            <input id="num2" type="button"value="2" onclick="num1(this.value)">
+            <input id="num3"type="button" value="3" onclick="num1(this.value)">
+            <input id="btn operator"type="button" value="-" onclick="num1(this.value)">
+            <input id="num0" type="button"value="0" onclick="num1(this.value)">
+            <input id="btn operator"type="button" value="+" onclick="num1(this.value)">
+            <input value="=" type="button"id="equals" onclick="equals()">
+            <input value="c" type="button" id="clear" onclick="c1()">
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+    <script src="js/calculator.js"></script>
+</body>
+</html>
